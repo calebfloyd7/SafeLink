@@ -61,7 +61,9 @@ SafeLink/
 │   └── styles.css
 ├── server/
 │   ├── package.json
-│   └── server.js
+│   ├── server.js
+│   ├── .env
+│   └── .gitignore
 └── README.md
 ```
 ## Setup Instructions
@@ -78,9 +80,9 @@ npm install
 ```
 SAFE_BROWSING_API_KEY=your_api_key_here
 ```
-4. In the server folder, start the server
+4. Run the server, within the server folder
 ```
-npm start
+npm start 
 ```
 5. In the SafeLink folder, start the application
 ```
